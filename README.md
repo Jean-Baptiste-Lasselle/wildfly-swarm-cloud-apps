@@ -101,7 +101,8 @@ Exemples de `Module` :
 * Enfin, mon but premier : arriver à remonter un cycle devops complet avec chaîne complète de production industrielle, sur STRAPI : déploiement des plugins, déploiement des APIs, configuration de l'authentification, synchronsitation complète Keycloak , avec synchronisation du Keycloak sur un LDAP à l'ancienne (du typique pour les clients en ce moment). le tout doit se fair aussi avec un contexte reverse proxy et HTTPS partout.
 * Installation / configuration de  Gravitee.io : ALors, ça m'apprte quoi, Gravitee, en plus du reverse proxy que 'jtuilise déjà? ET la propagation des certificats SSL, comment Gravitee.io l'assure-t-elle?
 * Traefik,  : je trouverais comment faire le routage automatique (service discovery)  des conteneurs, et je trouverai comment fair le load balancing en changeant la cible de déploeiment pour un cluster Kubernetes, Traefik.io comme Ingress Controller K8s. Je consoliderai la réponse à la question : " La propagation des certificats SSL est-elle possible avec Traefik.io? " ?
-* Faire une recette de provision d'un cluster Keycloak, avec derrière un cluster postgre SQL, à base de  `pg_pool` et `pg_master`.
+* Faire une recette de provision d'un cluster Keycloak, avec derrière un cluster postgre SQL, à base de  `pg_pool` et `pg_master`. Le tout dans des conteneurs de grosse taille, sur " Hôtes Docker différents (et non des VMs comme au taff). Pour préparer, finir la rectte de provision d'un cluster wildfly.
+
 
 
 
